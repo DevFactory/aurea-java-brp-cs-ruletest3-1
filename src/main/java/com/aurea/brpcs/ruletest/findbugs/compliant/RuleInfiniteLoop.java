@@ -21,15 +21,6 @@ public class RuleInfiniteLoop {
         return i;
     }
 
-    public static int test3(int n) {
-        int i = 0;
-        while (n >= 10) {
-            n = n + 1;
-            i = i + 1;
-        }
-        return i;
-    }
-
     public static int test4(int N) {
         int n = N;
         int i = 0;
